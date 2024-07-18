@@ -1,0 +1,57 @@
+@font-face {
+    font-family: headFont;
+    src: url('fonts/Summer-Vibes-OTF.otf');
+}
+
+#wrapper{
+    max-width: 900px;
+    min-height: 600px;
+    margin: auto;
+    color: grey;
+    font-family: myFont;
+    font-size: 12px;
+}
+
+form{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+input[type=text], [type=password], [type=button]{
+    padding: 10px;
+    margin: 10px;
+    width: 96%;
+}
+
+input[type=button]{
+    width: 102%;
+    cursor: pointer;
+    color: white;
+    background-color: #244686;
+}
+
+input[type=radio]{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#header{
+    width: 100%;
+    padding: 5px;
+    background-color: #485b6c;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: headFont, sans-serif;
+}
+
+#error{
+    font-size: 16px;
+    text-align: center;
+    padding: 0.5em;
+    background-color: #ecaf91;
+    color: white;
+    display: none;
+}
